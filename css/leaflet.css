@@ -486,7 +486,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	position: absolute;
 	left: 50%;
 	margin-left: -20px;
-	overflow: hidden;
+	overflow-y: scroll;
 	pointer-events: none;
 	}
 .leaflet-popup-tip {
