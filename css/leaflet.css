@@ -484,7 +484,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	width: fit-content !important;
 	width: auto !important;
 	height: auto !important;
-	overflow-y: scroll !important;
+	overflow-y: auto !important;
 	}
 .leaflet-popup-tip-container {
 	width: 40px;
