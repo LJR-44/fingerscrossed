@@ -242,7 +242,7 @@
                         <td colspan="2">' + (feature.properties['Photo'] !== null ? '<img src="images/Diversity Tables copy/Forest Spring.png"' + String(feature.properties['Photo']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                 </table>';
-            layer.bindPopup(popupContent, {maxHeight: auto});
+            layer.bindPopup(popupContent, {maxHeight: 400});
             var popup = layer.getPopup();
             var content = popup.getContent();
             var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
