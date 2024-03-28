@@ -188,7 +188,7 @@
                         <td colspan="2">' + (feature.properties['Photo Birdhouse 4'] !== null ? '<img src="images/Damaged Birdhouse Photos copy/House 4 pxl right.jpg"' + String(feature.properties['Photo Birdhouse 4']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                 </table>';
-            layer.bindPopup(popupContent, {maxHeight: 300});
+            layer.bindPopup(popupContent, {maxHeight: 350});
             var popup = layer.getPopup();
             var content = popup.getContent();
             var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
@@ -241,7 +241,7 @@
                         <td colspan="2">' + (feature.properties['Photo'] !== null ? '<img src="images/Diversity Tables copy/Forest Spring.png"' + String(feature.properties['Photo']).replace(/[\\\/:]/g, '_').trim() + '">' : '') + '</td>\
                     </tr>\
                 </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
+            layer.bindPopup(popupContent, {maxHeight: 300});
             var popup = layer.getPopup();
             var content = popup.getContent();
             var updatedContent = removeEmptyRowsFromPopupContent(content, feature);
